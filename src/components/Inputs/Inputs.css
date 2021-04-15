@@ -1,0 +1,17 @@
+input[type='text'] {
+  width: 25vw;
+}
+
+.inputStyling {
+  padding: 0 5px;
+}
+
+.buttonStyling {
+  background-color: blue;
+  color: white;
+}
+
+.inputContainer {
+  display: flex;
+  flex-direction: row;
+}
