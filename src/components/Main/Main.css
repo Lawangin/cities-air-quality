@@ -1,7 +1,33 @@
-.container {
+.ui.container {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+
+.sectionContainer {
+  display: flex;
+  flex-direction: row;
+}
+
+.cardContainer {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+.ui.card.cardStyling {
+  background: linear-gradient(
+    132deg,
+    rgba(255, 255, 255, 1) 32%,
+    rgba(232, 235, 254, 0.75) 65%,
+    rgba(96, 122, 249, 0.5) 100%
+  );
+}
+
+@media (max-width: 500px) {
+  .sectionContainer {
+    display: flex;
+    flex-direction: column;
+  }
 }

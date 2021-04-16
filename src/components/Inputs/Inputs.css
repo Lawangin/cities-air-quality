@@ -1,12 +1,12 @@
 input[type='text'] {
-  width: 25vw;
+  width: clamp(200px, 25vw, 350px);
 }
 
 .inputStyling {
   padding: 0 5px;
 }
 
-.buttonStyling {
+.ui.button.buttonStyling {
   background-color: blue;
   color: white;
 }
@@ -14,4 +14,20 @@ input[type='text'] {
 .inputContainer {
   display: flex;
   flex-direction: row;
+}
+
+.errorStyling {
+  color: red;
+  font-style: italic;
+}
+
+@media (max-width: 500px) {
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .inputStyling {
+    padding-bottom: 5px;
+  }
 }
