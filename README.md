@@ -1,6 +1,6 @@
-# Check Air Quality between different cities
+# Check Air Quality Between Different Cities
 
-This project uses [OpenAQ](https://docs.openaq.org/) API to display air quality between two cities. The front end was written with Create React App.
+This project uses [OpenAQ](https://docs.openaq.org/) API to display air quality between two cities. The code was primarily written with Create React App.
 
 ## Available Scripts
 
@@ -18,19 +18,19 @@ You will also see any lint errors in the console.
 
 Launches the test runner in the interactive watch mode.\
 
-## Ways to improve with more time
+## Ways to improve the project
 
-Some developer notes on how to improve the project more if more time was allocated
+Some developer notes on how to improve the project if more time was allocated
 
 ### Modularize code
 
 Certain aspects could have been improved by creating custom hooks such as useFetch hook. Allowing for better reuse of fetch queries with response, loading and error callbacks.
 
-Converting the CSS to modules by changing the setting in the webpack.config would allow for more felxibility. Another option could have been using styled components library
+Converting the CSS to modules by changing the configuration in webpack.config would allow for more felxibility. Another option would have been to use Styled Components library
 
 ### More and better tests
 
-The tests could be improved upon by testing API and validations. Integration, regression and smoke tests with selenium or cypress should be added as well.
+The tests could be improved upon by testing validations and the API. Integration, regression and smoke tests with selenium or cypress should be added as well.
 
 ### More helper functions
 
