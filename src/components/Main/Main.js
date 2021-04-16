@@ -56,6 +56,11 @@ const Main = () => {
       fetchDataOne()
       fetchDataTwo()
     }
+
+    return function cleanup() {
+      setFirstCity([])
+      setSecondCity([])
+    }
   }, [inputOne, inputTwo])
 
   const cardComponent = (cityData) =>
